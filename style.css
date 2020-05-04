@@ -75,7 +75,7 @@ body{
 
       @media (max-width:1199px){
         .button{
-         font-size: 30px;
+         font-size: 50px;
          width: 80%;
          margin-left: 10%;
         }
@@ -132,12 +132,14 @@ body{
          .slogan{
           font-size: 30px;
           max-width: 90%;
+          margin-top:15%;
          }
         }
        @media (max-width:1199px) and ( min-height:350px){
         .slogan{
           font-size: 60px;
           max-width: 80%;
+          margin-top:15%;
          }
        }
        @media (min-width:1200px) and (max-height:499px){
