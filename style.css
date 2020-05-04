@@ -76,7 +76,7 @@ body{
       @media (max-width:1199px){
         .button{
          font-size: 100px;
-         width: 80%;
+         width: 60%;
          margin-left: 10%;
         }
       }
