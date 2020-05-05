@@ -46,7 +46,8 @@
 
 @media screen and (min-width:992px){
   .logo {
-    max-width: 10%;
+    max-width: 12%;
+    background-color: rgb(209, 28, 28);
   }
   }
 
