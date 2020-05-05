@@ -16,27 +16,38 @@
         padding-top: 0.5%;
         padding-bottom: 0.5%;
         opacity:1;
-        max-width: 8%;
       }
 
-/* mobile display up to 479px  */
+/* mobile display up to 600px  small phones */
 
 @media screen and (max-width:479px){
   .logo {
-          max-width: 30%;
+          max-width: 35%;
         }
-      }
+}
 
-/* mobile display up to 767px  */
+/* mobile display large phones  */
 
-@media screen and (max-width:767px){
- 
+@media screen and (min-width:479px){
+  .logo {
+    max-width: 30%;
+  }
   }
 
-/* mobile display up to 991px  */
+/* tablets display & large phones   */
 
-@media screen and (min-width:991px){
- 
+@media screen and (min-width:768px){
+  .logo {
+    max-width: 20%;
+  }
+  }
+
+/* laptops   */
+
+@media screen and (min-width:992px){
+  .logo {
+    max-width: 10%;
+  }
   }
 
 body{
