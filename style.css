@@ -1,35 +1,43 @@
 
-h1{
-  background-color: whitesmoke;
-  margin-bottom:0px;
-  opacity:1;
-  
+/*Header class style for all pages*/
+.site-header  {
+                background-color: whitesmoke;
+                margin-bottom:0px;
+                opacity:1;
+                z-index: 1;
+              }
+
+/*zuplo image header*/
+.logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+        opacity:1;
+        max-width: 8%;
+      }
+
+/* mobile display up to 479px  */
+
+@media screen and (max-width:479px){
+  .logo {
+          max-width: 30%;
+        }
+      }
+
+/* mobile display up to 767px  */
+
+@media screen and (max-width:767px){
+ 
   }
 
-  /*zuplo image header style*/
-  .logo {
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
-          
-          height: auto;
-          padding-top: 0.5%;
-          padding-bottom: 0.5%;
-          opacity:1;
-        }
+/* mobile display up to 991px  */
 
-        /* mobile display  */
-        @media (max-width:1126px){
-          .logo{
-            max-width: 30%;
-          }
-        }
-  
-        @media (min-width:1127px){
-          .logo{
-            max-width: 8%;
-          }
-        }
+@media screen and (min-width:991px){
+ 
+  }
 
 body{
       margin:0px;
