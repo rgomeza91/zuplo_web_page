@@ -39,7 +39,7 @@ body  {
 
 /*centerzone of page*/
 #center-zone  {
-  background-color: brown;
+  /*background-color: brown;*/
   margin-top: 5%;
   display: block;
   margin-left: auto;
@@ -64,7 +64,7 @@ body  {
 
 /*lowerzone of page*/
 #lower-zone {
-  background-color: lavenderblush;
+  /*background-color: lavenderblush;*/
   display: block;
   opacity: 1;
   height: 20%;
@@ -125,7 +125,7 @@ body  {
   margin-top: 0%;
   margin-left: 0%;
   display: block;
-  background-color: rgb(183, 189, 186);
+  /*background-color: rgb(183, 189, 186);*/
   width: 35%;
   height: 55%;
   opacity: 1;
@@ -136,7 +136,7 @@ body  {
   margin-top: 0%;
   margin-left: 35%;
   display: block;
-  background-color: rgb(183, 189, 186);
+  /*background-color: rgb(183, 189, 186);*/
   width: 35%;
   height: 55%;
   position: absolute;
@@ -145,7 +145,7 @@ body  {
 }
 .formulary{
   display: block;
-  background-color: blueviolet;
+  /*background-color: blueviolet;*/
   font-size: 25px;
   margin-top: 1%;
 }
@@ -158,7 +158,7 @@ input::-webkit-inner-spin-button {
 @media screen and (max-width:479px){
   .logo {
     max-width: 35%;
-    background-color: rgba(43, 40, 43, 0.719);
+    /*background-color: rgba(43, 40, 43, 0.719);*/
   }
   .slogan {
     font-size: 30px;
@@ -186,7 +186,7 @@ input::-webkit-inner-spin-button {
 @media screen and (min-width:479px){
   .logo {
     max-width: 30%;
-    background-color: rgb(203, 28, 209);
+    /*background-color: rgb(203, 28, 209);*/
   }
   .slogan {
     font-size: 40px;
@@ -212,7 +212,7 @@ input::-webkit-inner-spin-button {
 @media screen and (min-width:768px){
   .logo {
     max-width: 20%;
-    background-color: rgb(28, 209, 43);
+    /*background-color: rgb(28, 209, 43);*/
   }
   .slogan {
     font-size: 40px;
@@ -239,7 +239,7 @@ input::-webkit-inner-spin-button {
 @media screen and (min-width:992px){
   .logo {
     max-width: 12%;
-    background-color: rgb(209, 28, 28);
+    /*background-color: rgb(209, 28, 28);*/
   }
   .slogan{
     font-size: 45px;
