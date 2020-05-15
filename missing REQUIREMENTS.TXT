@@ -1,0 +1,21 @@
+Alright, now it’s time to make your website your own. Design a personal webpage about yourself, one of your interests, or any other topic of your choice. The subject matter, look and feel, and design of the site are entirely up to you, subject to the following requirements:
+
+Your website must contain:
+ --> 2 different .html pages
+ --> it should be possible to get from any page on your website to any other page by following one or more hyperlinks.
+ --> one list (ordered or unordered)
+ --> one table
+ --> one stylesheet file.
+	->Your stylesheet(s) must use:
+		
+		-2 different types of CSS selectors(descendents ol li, onlychilds ol>li, elements with certain attribute input[attribute], sister things a+b).
+
+ -->use Bootstrap 4 on your website
+	->Taking advantage of at least one Bootstrap component
+	->using at least two Bootstrap columns for layout purposes using Bootstrap’s grid model.
+
+ --> Stylesheets must use at least one example of SCSS nesting, 
+
+In README.md, include a short writeup describing your project, what’s contained in each file, and (optionally) any other additional information the staff should know about your project.
+
+Note that not all of the above requirements are covered in Lecture 0, some will be introduced in Lecture 1.
