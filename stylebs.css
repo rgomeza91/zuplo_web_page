@@ -22,7 +22,7 @@ div[name=header-column] {
   font-size: 22px; }
 
 img[name=producto] {
-  width: 100%;
+  width: 80%;
   height: 100%;
   opacity: 1;
   margin-bottom: 0px; }
@@ -91,7 +91,8 @@ div[name=botton] {
   transition: 1.5s; }
 
 .button1:hover span {
-  padding-right: 15px; }
+  padding-right: 15px;
+  color: whitesmoke; }
 
 .button1:hover span:after {
   opacity: 1;
