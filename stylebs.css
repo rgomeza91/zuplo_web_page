@@ -11,19 +11,21 @@ div[name=body] {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  padding-top: 7%; }
+  padding-top: 7%;
+  padding-bottom: 15%; }
 
 div[name=header-column] {
   background-color: whitesmoke;
   height: 45px;
   color: #2b5063;
   font-weight: bold;
-  font-size: 20px; }
+  font-size: 22px; }
 
 img[name=producto] {
   width: 100%;
   height: 100%;
-  opacity: 0.5; }
+  opacity: 1;
+  margin-bottom: 0px; }
 
 div[name=footer-column] {
   background-color: whitesmoke;
@@ -42,8 +44,12 @@ div[name=footer-column] {
   padding-bottom: 0.5%;
   opacity: 1; }
 
-.row > div[class=col-lg-4] {
-  text-align: center; }
+.row[name=cards-row] > div {
+  text-align: center;
+  margin-bottom: 0px; }
+
+div[name=card] {
+  padding-bottom: 0px; }
 
 div[name=product] {
   background-color: whitesmoke;
@@ -51,8 +57,7 @@ div[name=product] {
   padding: 0px; }
 
 div[name=botton] {
-  background-color: whitesmoke;
-  height: 15%;
+  height: 45px;
   padding: 0px; }
 
 /* mobile display small phones  */
@@ -71,4 +76,4 @@ div[name=botton] {
     max-width: 12%;
     /*background-color: rgb(209, 28, 28);*/ } }
 
-/*# sourceMappingURL=style2.css.map */
+/*# sourceMappingURL=stylebs.css.map */

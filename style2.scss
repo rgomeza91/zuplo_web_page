@@ -1,7 +1,7 @@
 /*Updated May 14 2020  10:00pm */
 
 $zuploblue:rgb(43, 80, 99);
-$zuplowhite: whitesmoke;
+$zuplowhite:whitesmoke;
 
 body  {
         margin:0px;
@@ -29,6 +29,17 @@ body  {
   z-index: 1;
 }
 
+div[name = header]{
+  background-color: $zuplowhite;
+  opacity:1;
+  z-index: 1;
+}
+div[name = body]{
+  background-image: url("background_green.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
 /*zuplo header logo*/
 .logo {
   display: block;
@@ -162,7 +173,18 @@ body  {
   width: 350px;
   margin-top: 1%;
 }
-
+.row > div[class= col-lg-4] {
+  margin-top: 10%;
+  height: 400px;
+  padding:20px;
+  background-color: teal;
+  border:2px solid black;
+  text-align: center;
+}
+.col-lg-12{
+  background-color: white;
+  height: 70%;
+}
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
 }
@@ -306,6 +328,7 @@ input::-webkit-inner-spin-button {
     width: 50%;
   }
 }
+
 
 /* laptops   */
 @media screen and (min-width:992px){

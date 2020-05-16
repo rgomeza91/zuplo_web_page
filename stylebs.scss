@@ -1,0 +1,90 @@
+/*Updated May 14 2020  10:00pm */
+
+$zuploblue:rgb(43, 80, 99);
+$zuplowhite:whitesmoke;
+
+/*div for header section created with container-fluid*/
+div[name = header]{
+  background-color: $zuplowhite;
+  opacity:1;
+  z-index: 1;
+ }
+/*div for body section created with container-fluid*/
+div[name = body]{
+  background-image: url("background_green.JPG") ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-top:7%; 
+  padding-bottom:15%;
+}
+div[name = header-column]{
+  background-color: $zuplowhite;
+  height: 45px;
+  color:$zuploblue;
+  font-weight: bold ;
+  font-size: 22px;
+}
+img[name = producto]{
+  width:100%;
+  height: 100%;
+  opacity: 1;
+  margin-bottom:0px;
+}
+div[name = footer-column]{
+  background-color: $zuplowhite;
+  height: 80px;
+  color:$zuploblue;
+  font-size: 25px;
+  font-weight: bold ;
+}
+
+/*zuplo header logo*/
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  opacity:1;
+}
+
+.row[name=cards-row]> div {
+  text-align: center;
+  margin-bottom: 0px;
+}
+div[name=card]{
+  padding-bottom:0px ;
+}
+div[name=product] {
+  background-color: $zuplowhite;
+  height: 50%;
+  padding:0px;
+}
+div[name=botton] {
+  
+  height: 45px;
+  padding:0px;
+}
+/* mobile display small phones  */
+@media screen and (min-width:479px){
+  .logo {
+    max-width: 30%;
+    /*background-color: rgb(203, 28, 209);*/
+  }
+}
+/* tablets display & large phones   */
+@media screen and (min-width:768px){
+  .logo {
+    max-width: 20%;
+    /*background-color: rgb(28, 209, 43);*/
+  }
+}
+/* laptops   */
+@media screen and (min-width:992px){
+  .logo {
+    max-width: 12%;
+    /*background-color: rgb(209, 28, 28);*/
+  }
+}
