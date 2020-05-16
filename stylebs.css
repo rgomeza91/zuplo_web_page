@@ -60,6 +60,10 @@ div[name=botton] {
   height: 45px;
   padding: 0px; }
 
+@media screen and (max-width: 479px) {
+  .logo {
+    max-width: 35%;
+    /*background-color: rgba(43, 40, 43, 0.719);*/ } }
 /* mobile display small phones  */
 @media screen and (min-width: 479px) {
   .logo {
