@@ -82,9 +82,11 @@ div[name = footer-column]{
 .row[name=cards-row]> div {
   text-align: center;
   margin-bottom: 0px;
+  margin-top: 10%;
 }
 div[name=card]{
   padding-bottom:0px ;
+
 }
 div[name=product] {
   background-color: $zuplowhite;
@@ -93,7 +95,7 @@ div[name=product] {
 }
 div[name=botton] {
   
-  height: 45px;
+  height: 150px;
   padding:0px;
 }
 
@@ -144,22 +146,23 @@ div[name=botton]{
 
 @media screen and (max-width: 479px) {
   .logo {
-    max-width: 35%;
+    max-width: 80%;
     /*background-color: rgba(43, 40, 43, 0.719);*/ 
   }
 }
 /* mobile display small phones  */
 @media screen and (min-width:479px){
   .logo {
-    max-width: 30%;
+    max-width: 75%;
     /*background-color: rgb(203, 28, 209);*/
   }
 }
 /* tablets display & large phones   */
 @media screen and (min-width:768px){
   .logo {
-    max-width: 20%;
+    max-width: 68%;
     /*background-color: rgb(28, 209, 43);*/
+    
   }
 }
 /* laptops   */
@@ -168,4 +171,4 @@ div[name=botton]{
     max-width: 39%;
     /*background-color: rgb(209, 28, 28);*/
   }
-}
+ }
