@@ -20,8 +20,35 @@ div[name=header] {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: small;
     margin-left: auto;
+    width: fit-content; }
+
+div[name=table] {
+  height: 100%; }
+
+table {
+  text-align: center;
+  column-width: 50%;
+  width: 100%;
+  background-color: none; }
+
+table, th, td {
+  border-collapse: collapse;
+  border: 1px solid black;
+  font-size: 32px; }
+
+th {
+  background-color: lightgrey; }
+
+td {
+  background-color: whitesmoke; }
+
+div [name=user-data] {
+  width: 100%; }
+  div [name=user-data] ul {
+    margin-left: auto;
     margin-right: auto;
-    vertical-align: center; }
+    list-style-type: none;
+    text-align: center; }
 
 /*div for body section created with container-fluid*/
 div[name=body] {
@@ -88,7 +115,7 @@ div[name=botton] {
   height: 150px;
   padding: 0px; }
 
-.button1 {
+.button1, .button2 {
   background-color: #21b78a;
   /* zuploblue */
   border: none;
@@ -126,24 +153,41 @@ div[name=botton] .button1:hover span:after {
   opacity: 1;
   right: 0; }
 
+.button2 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto; }
+
 @media screen and (max-width: 479px) {
   .logo {
     max-width: 80%;
-    /*background-color: rgba(43, 40, 43, 0.719);*/ } }
+    /*background-color: rgba(43, 40, 43, 0.719);*/ }
+
+  div[name=body] .container {
+    margin-top: 20%; } }
 /* mobile display small phones  */
 @media screen and (min-width: 479px) {
   .logo {
     max-width: 75%;
-    /*background-color: rgb(203, 28, 209);*/ } }
+    /*background-color: rgb(203, 28, 209);*/ }
+
+  div[name=body] .container {
+    margin-top: 15%; } }
 /* tablets display & large phones   */
 @media screen and (min-width: 768px) {
   .logo {
     max-width: 68%;
-    /*background-color: rgb(28, 209, 43);*/ } }
+    /*background-color: rgb(28, 209, 43);*/ }
+
+  div[name=body] .container {
+    margin-top: 5%; } }
 /* laptops   */
 @media screen and (min-width: 992px) {
   .logo {
     max-width: 39%;
-    /*background-color: rgb(209, 28, 28);*/ } }
+    /*background-color: rgb(209, 28, 28);*/ }
+
+  div[name=body] .container {
+    margin-top: 0%; } }
 
 /*# sourceMappingURL=stylebs.css.map */
